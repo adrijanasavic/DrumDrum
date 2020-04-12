@@ -21,7 +21,7 @@
             android:src="@drawable/android_pink" />
 
         <TextView
-            android:id="@+id/application_name"
+            android:id="@+id/my_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

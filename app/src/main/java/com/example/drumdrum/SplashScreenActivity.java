@@ -17,7 +17,7 @@ public class SplashScreenActivity extends AppCompatActivity implements Animation
 
     Animation animFadeIn;
     LinearLayout linearLayout;
-    TextView app_name;
+    TextView my_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class SplashScreenActivity extends AppCompatActivity implements Animation
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
 
-        app_name = findViewById(R.id.application_name);
+        my_name = findViewById(R.id.my_name);
 
 
         animate();
@@ -73,7 +73,7 @@ public class SplashScreenActivity extends AppCompatActivity implements Animation
         animation_2.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
-                app_name.setVisibility(View.VISIBLE);
+                my_name.setVisibility(View.VISIBLE);
             }
 
             @Override
